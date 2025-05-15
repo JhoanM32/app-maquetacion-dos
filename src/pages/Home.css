@@ -1,0 +1,118 @@
+.contenedor {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #fff;
+}
+
+
+.caja-dos, .caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 32vw;
+    flex-direction: column;
+}
+
+
+.caja-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    width: 75vh;
+    text-align: center;
+    border: 2px solid #111;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 2px 2px 0 #111;
+    position: relative;
+    padding: 24px 0;
+}
+
+.caja-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    height: 100%;
+}
+
+.caja-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.input-caja {
+    padding: 10px 16px;
+    border: 1.5px solid #888;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+    width: 70%;
+    z-index: 1;
+    background: #fafafa;
+}
+.input-caja:focus {
+    border-color: #007bff;
+}
+
+.boton-caja {
+    padding: 10px 24px;
+    background: #101214;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 0;
+    transition: background 0.2s;
+    margin-bottom: 2%;
+    box-shadow: 3px 3px 0 #111;
+}
+.boton-caja:hover {
+    background: #1e2022;
+}
+
+.caja-dos h1 {
+    font-size: 2.2rem;
+    color: #222;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+
+
+.link-caja {
+    margin-top: 32px;
+    color: #007bff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+    display: block;
+    font-family: inherit;
+    font-weight: normal;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.link-caja:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+

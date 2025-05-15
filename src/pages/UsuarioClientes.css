@@ -1,0 +1,72 @@
+.usuarios-container {
+  min-height: 100vh;
+  position: relative;
+  background: #fff;
+}
+
+.usuarios-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 250px);
+  gap: 32px;
+  padding: 40px 40px 120px 40px;
+}
+
+.usuario-card {
+  border: 2px solid #111;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 2px 2px 0 #111;
+  position: relative;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.usuario-card:hover {
+  box-shadow: 4px 4px 0 #0f1214;
+  border-color: #0c0e11;
+}
+
+.ver-btn {
+  margin-top: 24px;
+  padding: 12px 36px;
+  font-size: 1.1em;
+  border: 2px solid #111;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 #111;
+  border-radius: 6px;
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.ver-btn:hover {
+  background: #f0f0f0;
+  border-color: #181c20;
+  box-shadow: 3px 3px 0 #1d2024;
+}
+
+.home-btn {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  padding: 14px 38px;
+  font-size: 1.1em;
+  border: 2px solid #111;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 #111;
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+  border-radius: 6px;
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.home-btn:hover {
+  background: #f0f0f0;
+  border-color: #0f1113;
+  box-shadow: 3px 3px 0 #101011;
+}

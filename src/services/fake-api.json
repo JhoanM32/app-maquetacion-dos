@@ -1,0 +1,51 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "usuario": "admin",
+      "contrasena": "admin"
+    },
+    {
+      "id": "2",
+      "usuario": "camila",
+      "contrasena": "camila"
+    },
+    {
+      "id": "3",
+      "usuario": "juan",
+      "contrasena": "juan"
+    },
+    {
+      "id": "4",
+      "nombre": "Maria ",
+      "usuario": "maria",
+      "contrasena": "maria"
+    },
+    {
+      "id": "5",
+      "nombre": "Pedro ",
+      "usuario": "pedro",
+      "contrasena": "pedro"
+    },
+    {
+      "id": "1746479183671",
+      "nombre": "Carlos",
+      "usuario": "carlos",
+      "contrasena": "carlos"
+    },
+    {
+      "id": "1746480109643",
+      "nombre": "Luis",
+      "usuario": "luis",
+      "contrasena": "luis"
+    }
+  ],
+  "productos": [
+    { "id": 1},
+    { "id": 2 },
+    { "id": 3},
+    { "id": 4 },
+    { "id": 5},
+    { "id": 6}
+  ]
+}
