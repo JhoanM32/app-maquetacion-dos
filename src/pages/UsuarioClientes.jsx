@@ -22,7 +22,6 @@ const UsuarioClientes = () => {
       <div className="usuarios-grid">
         {usuarios.map((usuario) => (
           <div className="usuario-card" key={usuario.id}>
-            <h3>{usuario.nombre}</h3>
             <button className="ver-btn" onClick={() => handleView(usuario)}>Ver</button>
           </div>
         ))}

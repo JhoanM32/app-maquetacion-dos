@@ -63,6 +63,7 @@
   color: #111;
   border-radius: 6px;
   transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+  gap:10px
 }
 
 .home-btn:hover {
